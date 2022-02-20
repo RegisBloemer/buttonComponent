@@ -1,0 +1,47 @@
+*{
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --prymary: #248eff;
+  --white: #fdfdfd;
+}
+
+/*Button Config*/
+.div {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--prymary);
+  color: var(--white);
+}
+
+
+/* Div Size*/
+.div--medium {
+  width: 250px;
+  height: 150px;
+  background:  var(--prymary);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+}
+
+.divButton{
+  padding: 0px 5px 115px 0px;
+}
+
+.text{
+  margin:auto;
+  padding: 0px 0px 0px 25px;
+  color: red;
+  font-size: 30px;
+  
+}
+
+.organize2 {
+  margin: 5px;
+}
